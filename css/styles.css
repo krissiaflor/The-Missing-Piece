@@ -1,0 +1,253 @@
+/* reset browser styles */
+*{
+	box-sizing: border-box;
+}
+@font-face{
+	src: url(../font/Vogue.ttf);
+	font-family: "Vogue";
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+.clear:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.clear {
+	zoom: 1;	
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+}
+
+
+header {
+	background-color:rgb(93,43,78); 
+	background-image: -webkit-linear-gradient(right, rgb(93,43,78), rgb(8,2,50));
+	padding-bottom: 30px;
+}
+
+header h1 {
+	font-size: 3em;	
+	color: white;
+	font-weight: bold;
+	padding-top: 30px;
+	clear: both;
+	padding-left: 10px;
+	letter-spacing: 2rem;
+	font-family: "Vogue";
+}
+
+nav {
+	background-color: rgb(25,25,25);
+	border: 1px solid rgba(255,255,255,.5);	
+	border-left: none;
+	border-right: none;
+	
+}
+nav ul {
+	padding: 0;
+	margin: 0;	
+}
+nav li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;	
+}
+nav a {
+	float: left;
+	font-size: .8em;	
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 10px 100px 10px 20px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+nav li:last-of-type a {
+	border-right: none;	
+}
+nav a:hover {
+	background-color: rgb(93,43,78);
+}
+aside h2 {
+	font-size: 1.5em;
+	margin-top: 10px;
+	letter-spacing: .3rem;	
+}
+aside h3 {
+	font-size: 1.1em;
+	margin-top: 15px;
+}
+aside p, aside li {
+	font-size: 1em;
+	margin-top: 10px;	
+}
+.main h2 {
+	font-size: 3em;
+	margin-top: 10px;	
+}
+.main h3 {
+	font-size: 1.5em;
+	margin-top: 20px;	
+}
+.main p {
+	margin-bottom: 15px;	
+}
+footer {
+	margin-top: 1900px;
+	font-size: .8em;	
+	padding: 10px 10px 30px 10px;
+	background-color: black;
+	color: rgb(204,204,204);
+}
+footer a {
+	color: white;	
+}
+/* add exericise 4 styles below here */
+
+
+.sidebar1{
+	float: left;
+	width: 20%;
+	margin-top: 280px;
+	
+}
+.sidebar2{
+	float: right;
+	width: 20%;
+	background: rgba(153, 153, 153, 0.315);
+	margin-top: 100px;
+	padding-bottom: 20px;
+	
+}
+footer{
+	clear: both;
+	
+  
+}
+.main{
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+	margin-top:50px;
+	
+}
+.innerColumn{
+	padding: 0 20px 0 10px;
+}
+nav ul, header h1, footer p  {
+	max-width: 870px;
+	margin: 0 auto;
+	text-align: center;
+}
+.contentWrapper {
+	max-width: 1200px;
+	margin: auto;
+
+}
+ .sidebar1 a :hover{
+	text-decoration: underline;
+	color: rgb(93,43,78);
+}
+.recommended :hover{
+	text-decoration: underline;
+	color: rgb(93,43,78);
+}
+h2{
+	color: rgb(93,43,78);
+}
+span{
+ color: rgba(153, 153, 153, 0.705);
+ line-height: 2rem;
+}
+p, span{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sidebar1 a{
+	color: black;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.2rem;
+}
+.what{
+	border-bottom: solid 0.3rem rgb(153, 153, 153);
+	
+}
+.widget{
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+}
+.author{
+	color:rgb(230, 112, 194);
+	font-size: 15px;
+}
+.sub{
+	color: rgba(153, 153, 153, 0.705);
+	font-size: 15px;
+	line-height: 3px;
+}
+.pic{
+	width: 600px;
+	height: auto;
+	margin:20px;
+}
+.related:hover{
+	text-decoration: underline;
+	color: rgb(93,43,78);
+}
+b{
+	font-size: 1.5rem;
+
+}
+.main li{
+	font-size: 1em;
+	margin-top: 10px;
+	list-style: square;	
+}
+.wid{
+	width: 170px;
+	height: 100px;
+}
+.sidebar2 a{
+	text-decoration: none;
+	color: black;
+}
+.sidebar2 a :hover{
+	text-decoration: underline;
+	color: rgb(93,43,78);
+}
